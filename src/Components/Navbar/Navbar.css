@@ -1,0 +1,23 @@
+#nav {
+  width: Hug (206px) px;
+  height: Hug (20px) px;
+  top: 137px;
+  left: 124px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  margin-left: 50px;
+  list-style: none;
+}
+#nav p {
+  margin-right: 5px;
+}
+
+/**MEDIA QUERRIES **/
+@media (max-width: 600px) {
+  #nav {
+    font-size: small;
+    margin-left: -15px;
+    width: 200px;
+  }
+}
